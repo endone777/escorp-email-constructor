@@ -1,2 +1,1 @@
-# escorp-email-constructor
-Email constructor for mailing lists
+# Конструктор email рассылок

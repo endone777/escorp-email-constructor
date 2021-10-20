@@ -1,0 +1,36 @@
+{
+  "name": "escorp-email-constructor",
+  "version": "1.0.0",
+  "description": "Email constructor for mailing lists",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint src/",
+    "test": "npm run eslint",
+    "build": "webpack --mode development",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akyc/escorp-email-constructor.git"
+  },
+  "keywords": [
+    "email",
+    "mjml"
+  ],
+  "author": "escorp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akyc/escorp-email-constructor/issues"
+  },
+  "homepage": "https://github.com/akyc/escorp-email-constructor#readme",
+  "devDependencies": {
+    "eslint": "7.31.0",
+    "eslint-config-htmlacademy": "4.0.2",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "engines": {
+    "node": "12"
+  }
+}
