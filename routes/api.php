@@ -17,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::post('/register' , [App\Http\Controllers\API\RegisterController::class , 'register']);
+
+Route::post('/mjml' , [App\Http\Controllers\API\RegisterController::class , 'mjml']);
+Route::match(['get', 'post'], '/n' , [App\Http\Controllers\API\NomenclaturesController::class , 'index']);
