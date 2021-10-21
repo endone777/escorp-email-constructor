@@ -8,7 +8,9 @@ module.exports = {
   },
   devtool: 'source-map',
   devServer: {
-    contentBase: path.resolve(__dirname, 'public'),
-    watchContentBase: true,
+    liveReload: true,
+    static: {
+      directory: path.resolve(__dirname, 'public'),
+    }
   }
 };
