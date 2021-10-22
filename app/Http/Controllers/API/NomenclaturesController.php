@@ -36,6 +36,7 @@ class NomenclaturesController extends Controller
                 'data' => $outProducts,
             ] , 200);
         }
+        
     }
 
     public function random_color_part()
